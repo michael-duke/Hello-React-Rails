@@ -57,6 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Hello React Rails] <a name="about-project"></a>
 ![hello-gif](https://thumbs.gfycat.com/PepperyGrizzledClownanemonefish-max-1mb.gif)
+
 **[Hello React Rails]** is a project is meant for setting up a "Hello world" Rails project as one app with Webpack and React. It is meant to be a starting point for a Rails project with React.
 
 ## 🛠 Built With <a name="built-with"></a>
