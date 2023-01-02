@@ -2,8 +2,8 @@
   "name": "app",
   "private": "true",
   "scripts": {
-    "build": "webpack --config webpack.config.js --watch",
-    "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify --watch"
+    "build": "webpack --config webpack.config.js",
+    "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"
   },
   "devDependencies": {
     "@babel/core": "^7.20.7",
