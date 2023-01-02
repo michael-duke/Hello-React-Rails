@@ -3,9 +3,23 @@ const webpack = require("webpack")
 
 module.exports = {
   mode: "production",
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+  },
   devtool: "source-map",
   entry: {
     application: "./app/javascript/application.js"
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(js)$/,
+        exclude: /node_modules/,
+        use: ['babel-loader'],
+      },
+    ],
   },
   output: {
     filename: "[name].js",
