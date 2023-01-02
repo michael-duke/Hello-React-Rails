@@ -56,7 +56,7 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Hello React Rails] <a name="about-project"></a>
-
+![hello-gif](https://thumbs.gfycat.com/PepperyGrizzledClownanemonefish-max-1mb.gif)
 **[Hello React Rails]** is a project is meant for setting up a "Hello world" Rails project as one app with Webpack and React. It is meant to be a starting point for a Rails project with React.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -143,7 +143,7 @@ rails db:seed
 To run the project, execute the following command:
 
 ```sh
-  ./bin/dev  # for building tailwind css
+  ./bin/dev  # for building tailwind css, and webpack, and rails server
 ``` 
 Or
 ```sh
@@ -167,9 +167,9 @@ Or
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Rotate refresh icon]**
+- [ ] **[Add more 'Hello world' messages]**
+- [ ] **[Construct the API with languages, and country greeting colors]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -196,9 +196,9 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank:
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Microverse](https://www.microverse.org/)
+- Code Reviewers
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,6 +220,6 @@ I would like to thank:
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
