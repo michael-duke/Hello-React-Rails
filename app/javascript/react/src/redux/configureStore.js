@@ -1,8 +1,8 @@
 import {
   applyMiddleware,
   configureStore,
+  getDefaultMiddleware
 } from '@reduxjs/toolkit';
-import thunk from 'redux-thunk';
 import logger from 'redux-logger';
 import greetingReducer from './greeting/greetingSlice';
 
@@ -12,8 +12,8 @@ const store = configureStore(
     reducer: {
       greeting: greetingReducer,
     },
+    middleware: [...getDefaultMiddleware(), logger]
   },
-  applyMiddleware(logger, thunk)
 );
 
 export default store;

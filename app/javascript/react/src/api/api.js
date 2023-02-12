@@ -1,5 +1,5 @@
-const baseURL = 'http://localhost:3001/greetings/';
-const randomGreetingURL = `${baseURL}random_greeting`;
+const baseURL = 'http://localhost:3001/greetings';
+const randomGreetingURL = `${baseURL}/random_greeting`;
 
 const api = {
   fetchRandomGreeeting: async () => {
